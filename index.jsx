@@ -1177,7 +1177,7 @@ function getCRLinks(levelId, apparatus, code) {
 // ─── GITHUB SYMBOL URL ────────────────────────────────────────────────────────
 // Once symbols are extracted and pushed to GitHub, update this base URL.
 // Expected structure: /symbols/{apparatus}/{code}.png and /figures/{apparatus}/{code}.png
-const GITHUB_BASE = "https://raw.githubusercontent.com/OTV-Gymnastics/elementtabellen/main";
+const GITHUB_BASE = "https://raw.githubusercontent.com/OTV-Nazareth/elementtabellen/main";
 function symUrl(apparatus, code) { return `${GITHUB_BASE}/symbols/${apparatus}/${code}.png`; }
 function figUrl(apparatus, code) { return `${GITHUB_BASE}/figures/${apparatus}/${code}.png`; }
 
